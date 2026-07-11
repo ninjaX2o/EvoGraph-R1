@@ -1,0 +1,63 @@
+# Core text + multimodal training dependencies.
+# Install CUDA PyTorch separately, then:
+#   pip install -r requirements.txt
+
+accelerate
+aioboto3
+aiohttp
+beautifulsoup4
+codetiming
+datasets
+dill
+faiss-cpu
+fastapi
+filelock
+FlagEmbedding
+googlesearch-python
+graspologic
+hydra-core
+httpx
+huggingface-hub
+ijson
+jsonlines
+math-verify[antlr4_9_3]
+nano-vectordb
+networkx
+nltk
+numpy
+omegaconf
+ollama
+openai>=1.40.0
+packaging
+pandas
+peft
+pillow
+pyarrow>=15.0.0
+pybind11
+pydantic
+pylatexenc
+python-dotenv
+ray[default]>=2.10
+requests
+safetensors
+sentence-transformers
+spacy
+sympy
+tenacity
+tensordict<0.6
+tiktoken
+torchdata
+tqdm
+transformers
+typing_extensions
+uvicorn
+vllm==0.7.3
+wandb
+xxhash
+
+# Optional local backends and integrations:
+#   pip install -e ".[db]"
+#   pip install -e ".[tracking]"
+#   pip install -e ".[megatron]"
+#   pip install -e ".[lmdeploy]"
+#   pip install -e ".[gpu]"

@@ -1,0 +1,117 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env
+
+# Environment variables
+.env
+.env.local
+*.env
+
+# IDE
+.vscode/
+.idea/
+.claude/
+.codex/
+.cursor/
+.history/
+/.worktrees/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+.pytest_cache/
+
+# Data & checkpoints
+*.jsonl
+*.bin
+*.pt
+*.ckpt
+checkpoints/
+outputs/
+wandb/
+
+# Multimodal generated workspaces
+/datasets/*
+!/datasets/README.md
+/datasets_mm/*
+!/datasets_mm/README.md
+/expr/*
+!/expr/README.md
+/expr_mm/*
+!/expr_mm/README.md
+
+# GraphR1 working directories
+expr_*_working_*/
+graphr1_kg/
+tool_results/
+kv_store_*.json.lock
+/graph_chunk_entity_relation.graphml
+/kv_store_chunks.json
+/kv_store_entities.json
+/kv_store_full_docs.json
+/kv_store_hyperedges.json
+/kv_store_llm_response_cache.json
+/kv_store_text_chunks.json
+.graphr1_seeded.json
+corpus.npy
+corpus_*.npy
+corpus_*_hashes.json
+entity_index_metadata.json
+hyperedge_content_lookup.json
+hyperedge_index_metadata.json
+hyperedge_recent_mutations.json
+crud_*_20*/
+delete_*_20*/
+soft_delete_*_20*/
+test_batch_refactor_20*/
+test_real_crud_20*/
+test_perf_20*/
+test_edge_20*/
+review*_deferred_*/
+test_crud_operations/
+crud_full_2wiki_bench_*/
+__nonexistent_dir__/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Test artifacts
+test_output*/
+
+# Local-only repo content
+/websearch_cache.sqlite
+/websearch_cache/
+/websearch_cache_runs/
+/Memory.md
+/doc/
+/docs/
+/tests/
+/test_batch_refactor.py
+/test_real_crud.py
+/graphr1.log
+/expr_results/
+/cache_dump.sql
+/plugins/codex-agent-team.rar
+/publish_file_list.txt
+/websearch_cache.sqlite.bak
